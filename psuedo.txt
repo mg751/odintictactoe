@@ -1,0 +1,8 @@
+1. Create counter to track player turns
+2.
+3. Player 1 turn begins, indicated by UI
+4. Player 1 clicks square, square onclick event listener to add X
+5. Square becomes unclickable(?)
+6. All squares except the one that was clicked get different event listener
+7. Player 2 tuns begins, indicated by UI
+8. Player 2 clicks square, onclick event adds O
