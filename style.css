@@ -1,7 +1,20 @@
 .game-display {
-  display: grid;
   width: 500px;
   height: 500px;
+  outline: 1px solid blue;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 500px;
+  height: 500px;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   outline: 1px solid blue;
@@ -9,6 +22,39 @@
 
 .game-display div {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x-selected {
+  background-color: blanchedalmond;
+}
+
+.o-selected {
+  background-color: aquamarine;
+}
+
+.winner {
+  background-color: goldenrod;
+}
+
+.game-finished {
+  pointer-events: none;
+}
+
+.testing {
+  background-color: pink;
+}
+
+label {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.player-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
